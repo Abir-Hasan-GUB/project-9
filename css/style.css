@@ -1,109 +1,135 @@
 html {
-  font-size: 10px; }
+  font-size: 10px;
+}
 
 .bold {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .button {
   font-size: 2.5rem;
   font-weight: 800;
   color: #2c322e;
   background: #f4543a;
-  word-spacing: .3rem;
-  letter-spacing: .1rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
-  padding: 1rem 3rem; }
-  .button .the {
-    font-weight: 400; }
+  padding: 1rem 3rem;
+}
+.button .the {
+  font-weight: 400;
+}
 
 #banner {
   background: #2c322e;
-  height: 86rem; }
+  height: 86rem;
+}
 
 .bannerBody {
   background: url(../images/banner.png);
   height: 86rem;
   background-position: 50% 0%;
   background-size: cover;
-  background-repeat: no-repeat; }
-  .bannerBody .bannerText {
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: #fff;
-    width: 53%; }
-  .bannerBody .bannerTextCtrl {
-    padding-bottom: 4%; }
-  .bannerBody button {
-    margin: 3rem 0; }
+  background-repeat: no-repeat;
+}
+.bannerBody .bannerText {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  width: 53%;
+}
+.bannerBody .bannerTextCtrl {
+  padding-bottom: 4%;
+}
+.bannerBody button {
+  margin: 3rem 0;
+}
 
 #vedioCtrl {
-  padding: 5rem 0; }
-  #vedioCtrl .watch {
-    color: #f4543a; }
-  #vedioCtrl .vedioTitle {
-    padding-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #494540; }
+  padding: 5rem 0;
+}
+#vedioCtrl .watch {
+  color: #f4543a;
+}
+#vedioCtrl .vedioTitle {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #494540;
+}
 
 .vedioText {
   font-size: 2.5rem;
-  color: #2c322e; }
+  color: #2c322e;
+}
 
 #helpChild {
   padding-top: 5rem;
-  background: #2c322e; }
-  #helpChild .helpText {
-    font-size: 8rem;
-    font-weight: 800; }
-  #helpChild .helpChildText * {
-    color: #fff; }
-  #helpChild .weakChild {
-    background: url(../images/singleChild.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%; }
+  background: #2c322e;
+}
+#helpChild .helpText {
+  font-size: 8rem;
+  font-weight: 800;
+}
+#helpChild .helpChildText * {
+  color: #fff;
+}
+#helpChild .weakChild {
+  background: url(../images/singleChild.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 #signleWoman .womanText {
   font-size: 3rem;
   color: #2c322e;
   font-weight: 500;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+}
 
 #signleWoman .womanBigText {
   font-weight: 800;
   color: #2c322e;
   padding: 2rem 0;
-  font-size: 3.6rem; }
+  font-size: 3.6rem;
+}
 
 #signleWoman .divider {
-  height: .3rem;
-  background: #2c322e; }
+  height: 0.3rem;
+  background: #2c322e;
+}
 
 .womanReguler {
   font-size: 1.9rem;
   font-weight: 400;
-  color: #2c322e; }
+  color: #2c322e;
+}
 
 #childCard {
   padding: 5rem 0;
-  background: #2c322e; }
-  #childCard .card {
-    border: none;
-    background: #fff; }
-    #childCard .card .card-text {
-      font-size: 2.3rem;
-      color: #2c322e;
-      font-weight: 800; }
-  #childCard .withoutText {
-    font-size: 5rem;
-    font-weight: 800;
-    color: #938E8A;
-    text-align: center;
-    padding-top: 3rem; }
+  background: #2c322e;
+}
+#childCard .card {
+  border: none;
+  background: #fff;
+}
+#childCard .card .card-text {
+  font-size: 2.3rem;
+  color: #2c322e;
+  font-weight: 800;
+}
+#childCard .withoutText {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #938e8a;
+  text-align: center;
+  padding-top: 3rem;
+}
 
 #peopleOfYemen {
-  background: #EFEEEE;
-  padding: 5rem 0; }
+  background: #efeeee;
+  padding: 5rem 0;
+}
 
 .peopleText {
   font-size: 4.5rem;
@@ -111,41 +137,51 @@ html {
   color: #2c322e;
   text-align: center;
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+}
 
 .peopleSmlTxt {
   font-size: 3.5rem;
   font-weight: 800;
   color: #494540;
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+}
 
 .dividerWhite {
-  height: .3rem;
-  background: #fff; }
+  height: 0.3rem;
+  background: #fff;
+}
 
 #about {
   padding: 5rem 0;
-  background: #2c322e; }
-  #about * {
-    color: #fff; }
-  #about .aboutText {
-    font-size: 2.9rem;
-    font-weight: 500;
-    color: #938E8A;
-    padding: 3rem 0; }
-  #about .aboutSmlTxt {
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #C0BCBA;
-    padding-top: 3rem;
-    padding-bottom: 2rem; }
-  #about .footerLogo {
-    max-width: 35rem; }
-  #about .copyright {
-    font-size: 2rem;
-    font-weight: 400;
-    padding-top: 25rem;
-    color: #C0BCBA; }
-    #about .copyright * {
-      color: #C0BCBA; }
+  background: #2c322e;
+}
+#about * {
+  color: #fff;
+}
+#about .aboutText {
+  font-size: 2.9rem;
+  font-weight: 500;
+  color: #938e8a;
+  padding: 3rem 0;
+}
+#about .aboutSmlTxt {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #c0bcba;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#about .footerLogo {
+  max-width: 35rem;
+}
+#about .copyright {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 25rem;
+  color: #c0bcba;
+}
+#about .copyright * {
+  color: #c0bcba;
+}
